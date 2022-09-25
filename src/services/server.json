@@ -1,0 +1,172 @@
+{
+  "food_categories": [
+    {
+      "id": "a123asdsad",
+      "name": "Pizzas",
+      "image": "https://images.vexels.com/media/users/3/263340/isolated/preview/92d75abef1c7523630339a2793eba5eb-fatia-de-traa-o-de-cor-de-pizza.png",
+      "menu": [
+        {
+          "id": "b213213213",
+          "title": "Brasileiras",
+          "pizzas": [
+            {
+              "id": "c321313123",
+              "name": "Napolitana",
+              "description": "A tradicionalíssima pizza napolitana tem se popularizado nas cidades brasileiras. É uma pizza de massa fina de fermentação natural que, depois de passar pelo forno à lenha com cúpula, fica crocante e saborosa. A napolitana é individual, tem cerca de 35 cm e recheio na medida.",
+              "image": "http://imagenspng.com/wp-content/uploads/pizza-napolitana-png-Download-gratis.png",
+              "qtyStars": 4,
+              "value": 30,
+              "location": "Mirazur"
+            },
+            {
+              "id": "dsaff21321321",
+              "name": "Calabresa",
+              "description": "A pizza de calabresa é, de longe, a favorita dos brasileiros, com 30% de preferência. Servida com ou sem molho de tomate — como é popular em São Paulo —, a calabresa caiu no gosto nacional. Com um sabor intenso, a combinação de calabresa, molho e cebola é perfeita!",
+              "image": "https://imagenspng.com/wp-content/uploads/pizza-calabresa-png-Imagem-clipart-gratis.png",
+              "qtyStars": 5,
+              "value": 29,
+              "location": "Noma"
+            },
+            {
+              "id": "e213321dffdsaf",
+              "name": "Portuguesa",
+              "description": "A pizza de portuguesa possui muitos ingredientes: queijo, presunto, ovos, ervilha, cebola e azeitona. Porém, os sabores combinam muito bem, além de saciar a fome, representando 21% dos pedidos nas capitais.",
+              "image": "https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/png-pizza9.png?resize=696%2C696&ssl=1",
+              "qtyStars": 4,
+              "value": 33,
+              "location": "Etxebarri"
+            },
+            {
+              "id": "fdf21321321",
+              "name": "Frango com catupiry",
+              "description": "A pizza de frango com catupiry, com certeza, não está entre os sabores originais, mas despertou a paixão do brasileiro ao longo do tempo. O catupiry e o frango elevam as qualidades um do outro e combinam com outros ingredientes como milho e cebola.",
+              "image": "https://w7.pngwing.com/pngs/774/872/png-transparent-paradise-pizzaria-ribeirao-preto-manakish-bacon-catupiry-pizza-baked-goods-food-recipe-thumbnail.png",
+              "qtyStars": 5,
+              "value": 31,
+              "location": "Gaggan"
+            },
+            {
+              "id": "gsdf23132131",
+              "name": "Mussarela",
+              "description": "Se a marguerita já mostra que é possível fazer muito com poucos ingredientes, a pizza de mussarela é a prova cabal. Molho, queijo, orégano e talvez uma azeitona se unem em uma excelente refeição.",
+              "image": "https://img2.gratispng.com/20180428/owe/kisspng-pizza-mozzarella-bacon-cheese-delivery-5ae46721cb5644.6284924715249180498329.jpg",
+              "qtyStars": 3,
+              "value": 28,
+              "location": "Geranium"
+            }
+          ]
+        },
+        {
+          "id": "h321321321asdas",
+          "title": "Estrangeiras",
+          "pizzas": [
+            {
+              "id": "i13dsadasdsadsa",
+              "name": "Colorado Mountain Pie",
+              "description": "Mais borda, mais queijo e mais recheio. Também conhecida como Colorado-style, essa pizza chama a atenção pelo tamanho. Reza a lenda que ela foi inventada pela Beau Jo’s Pizzeria, que fica na cidade de Idaho Springs, no estado do Colorado. A apresentação da pizza fez sucesso entre os moradores da cidade e o negócio se expandiu para outras regiões do estado.",
+              "image": "https://cdn.tasteatlas.com/images/dishes/6665987d9c28429d997b1da0e47a670b.jpg",
+              "qtyStars": 5,
+              "value": 42,
+              "location": "Central"
+            },
+            {
+              "id": "jalds3213sad",
+              "name": "Deep-dish Pizza",
+              "description": "Símbolo da gastronomia italiana, a pizza atravessou fronteiras e definitivamente conquistou seu espaço nos mais diversos cantos do mundo. Isso é tão verdade que hoje, no Brasil, existe até Dia da Pizza: no dia 10 de julho, todo mundo tem a desculpa perfeita para pedir a sua. E assim como no Brasil a receita mediterrânea foi adaptada (conhece algum outro lugar em que se coma pizza de strogonoff ou de cachorro quente?), nos Estados Unidos, a brincadeira também foi levada a sério. Na Warren, acreditamos que a melhor forma de investir é por objetivos, ou seja, cada sonho que você tem merece uma carteira específica para que ele se torne realidade. E quem não sonha em viajar? Por isso, reunimos as pizzas americanas mais clássicas para você conhecer e colocar na lista de to-dos quando a tão sonhada hora chegar. Vamos lá? LEIA TAMBÉM | Investindo para viajar? Confira 7 filmes e séries para assistir enquanto seu dinheiro rende Colorado Mountain Pie: muito queijo e uma borda de respei Mais borda, mais queijo e mais recheio. Também conhecida como Colorado-style, essa pizza chama a atenção pelo tamanho. Reza a lenda que ela foi inventada pela Beau Jo’s Pizzeria, que fica na cidade de Idaho Springs, no estado do Colorado. A apresentação da pizza fez sucesso entre os moradores da cidade e o negócio se expandiu para outras regiões do estado. Uma tradicional pizza de pepperoni da Beau Jo’s Pizzeria Foi então que praticantes de ski descobriram um dos restaurantes próximos às Montanhas Rochosas, e a fama da Colorado Mountain Pie se espalhou. Seu maior diferencial é a borda, que é grande e trançada para dar mais estabilidade na hora de comer os enormes pedaços com as mãos. Na massa, o mel substitui o açúcar — inclusive, depois da refeição, a borda é consumida como sobremesa, acompanhada por algum molho doce. Tradicionalmente, a Colorado Mountain Pie é vendida inteira ou por fatia, e os restaurantes locais oferecem um buffet de salada como acompanhamento.  Na maioria dos estabelecimentos, os clientes também podem escolher os ingredientes que querem para a sua pizza. Deep-dish Pizza, sangue italiano com a cara de Chicago Mais ao leste, na ventosa Chicago, a pizza que mais parece uma grande quiche é um ícone da gastronomia da cidade.  A origem da deep-dish pizza remonta aos imigrantes napolitanos que chegaram aos Estados Unidos no fim do século XIX em busca de trabalho. Por volta dos anos 1940, os empreendedores Ike Sewell e Ric Riccardo decidiram criar uma versão diferente, ítalo-americana, que apesar de ter sido inspirada em suas origens, acabou ficando bem distante da tradicional pizza napolitana. Servida em um prato mais fundo, com a borda mais crocante e camadas invertidas de queijo, tomate e carne (e às vezes alguns vegetais), a deep-dish pizza passou de uma tradição de imigrantes para um clássico nascido e criado em Chicago.",
+              "image": "https://www.pngitem.com/pimgs/m/507-5077809_pizza-deep-dish-puget-sound-deepdishpizza-sunka-cotto.png",
+              "qtyStars": 4,
+              "value": 37,
+              "location": "Mugaritz"
+            },
+            {
+              "id": "klsfoiio31231",
+              "name": "Detroit-style Pizza",
+              "description": "Descendente da pizza quadrada siciliana, a Detroit-style pizza foi criada em meados de 1950 na cidade de Detroit, no estado de Michigan. O formato quadrado, a massa crocante e o queijo que transborda das fatias são suas marcas registradas. A invenção da Detroit-style pizza é atribuída a Gus Guerra, à época dono de um restaurante local chamado Buddy’s Rendezvous, hoje também um ponto turístico de Detroit. Ele precisava de um novo item para o seu cardápio e, com a ajuda de sua esposa, Anna, acabou criando um verdadeiro hit. A história da pizza está profundamente ligada com a história da própria cidade. No site do Buddy’s Rendezvous, é possível ler a seguinte frase: “O que faz de uma pizza uma Detroit-style? As mesmas coisas que fizeram Detroit: um pouco de ingenuidade, um espírito teimoso e muito coração”. O principal ingrediente para fazer uma boa Detroit-style não é algo que se come, mas sim, a panela. Feita de um aço denso, é ela a responsável pela forma quadrada, pela crocância e pelo queijo caramelizado nos cantinhos da pizza.",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3GKUewebKnQfZjJDMv9n8AdpwuMw2i2l_HoAay5g6pX4emFlxoO0-FCqugCflqDG3Ns&usqp=CAU",
+              "qtyStars": 5,
+              "value": 39,
+              "location": "Arpège"
+            },
+            {
+              "id": "lsadfnaio1321321",
+              "name": "New York-style Pizza",
+              "description": "É quase impossível pensar em Nova Iorque e não visualizar as deliciosas e fininhas fatias de pizza vendidas por lá. A New York-style pizza também foi inspirada nas receitas vindas de Nápoles, mas é maior e menos crocante. É por isso que os nova-iorquinos costumam dobrar a pizza e comem os pedaços com as mãos. Aliás, essa cultura de comer com as mãos é tão forte que comer com talheres é praticamente uma gafe. Em 2014, o então prefeito de Nova Iorque, Bill de Blasio, foi parar no jornal The New York Times após ser flagrado usando garfo e faca para comer uma pizza. A história da New York-style pizza começa bem no início do século XX, com a abertura da primeira pizzaria dos Estados Unidos, a Lombardi’s, no bairro Little Italy, em Nova Iorque. Inicialmente, seu dono, Gennaro Lombardi, vendia a pizza napolitana clássica. Mas, ao longo dos anos, ela foi mudando, até chegar na New York-style pizza que conhecemos hoje. A base clássica leva molho de tomate e queijo mozzarela, mas diversos outros ingredientes podem ser adicionados (a pizza de pepperoni é unanimidade entre os locais).             ",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyFvi5yFD8f-QDYeR2YATDNLPplW1qhLGjf6sC_TZmqVlhIEB24i1DFwAjE_9nKlz9358&usqp=CAU'",
+              "qtyStars": 3,
+              "value": 35,
+              "location": "Disfrutar"
+            },
+            {
+              "id": "maiodio131312",
+              "name": "St. Louis-style Pizza",
+              "description": "Nascida no meio-oeste americano, no estado do Missouri, ela tem a massa fina, a borda crocante como um biscoito e ingredientes extras que vão de uma ponta à outra. Mas a chave para uma autêntica St. Louis-style pizza é o queijo provel, uma mistura dos queijos cheddar, suiço e provolone que resulta em um queijo super cremoso. Alguns dizem que o provel foi criado na própria St. Louis, mas há controvérsias. De qualquer forma, ele agora já é parte indissociável da cultura gastronômica da cidade. Diferentemente da maioria das pizzas, a St. Louis-style vem cortada em pequenos pedaços quadrados — e os “experts” dizem que a melhor maneira de começar é comendo os pedaços em forma de triângulo dos 4 cantos da pizza. O sabor mais popular entre seus apreciadores é o bacon.",
+              "image": "https://img2.gratispng.com/20180428/owe/kisspng-pizza-mozzarella-bacon-cheese-delivery-5ae46721cb5644.6284924715249180498329.jpg",
+              "qtyStars": 4,
+              "value": 38,
+              "location": "Maido"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nad3213sadp12321321321",
+      "name": "Hamburguer",
+      "image": "https://i.pinimg.com/originals/3f/1c/f0/3f1cf0e2c1db8beaca0cffd41c24a826.png",
+      "menu": []
+    },
+    {
+      "id": "olasnd1321321",
+      "name": "Sushi",
+      "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c1f9.png",
+      "menu": []
+    },
+    {
+      "id": "palk1321321312",
+      "name": "Esfirras",
+      "image": "https://i.pinimg.com/originals/48/0f/73/480f736ffe3ff2e42c3dba1f1f70d8b1.png",
+      "menu": []
+    },
+    {
+      "id": "qsadsadasdas12321",
+      "name": "Pratos",
+      "image": "http://4.bp.blogspot.com/-8z1N32nGBM0/ULe8uHl_ysI/AAAAAAAACc4/TwuxomeFXvI/s1600/PRATO+FEITO.png",
+      "menu": []
+    },
+    {
+      "id": "r213213sdsadsad",
+      "name": "Sorvetes",
+      "image": "https://static.wixstatic.com/media/6bcbf0_50148f653b4f4b41bcf5c2ee3090135f~mv2.png/v1/fill/w_560,h_466,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sorvete.png",
+      "menu": []
+    }
+  ],
+  "popular_foods": [
+    {
+      "id": "adsad21321321sadsadsa2132",
+      "name": "Moussaka",
+      "image": "https://static.wikia.nocookie.net/chefville/images/3/38/Recipe-Moussaka.png/revision/latest/scale-to-width-down/280?cb=20130108091043",
+      "location": "Grécia",
+      "description": "A Moussaka é um prato típico mediterrâneo. Na Grécia, por exemplo, ele é extremamente popular. Olhando de longe ele é muito parecido com uma lasanha, mas seu preparo é bem diferente.  Geralmente a Moussaka é feita com molho de queijo bechamel, carne de cordeiro e berinjela.",
+      "qtyStars": 5,
+      "value": 25
+    },
+    {
+      "id": "basdsadwe2131312adsa",
+      "name": "MASALA DOSA",
+      "image": "https://linguini.akamaized.net/starchef2_website/masala_dosa.png",
+      "location": "Índia",
+      "description": "Este prato, tipicamente indiano, é parecido com uma panqueca, mas não se engane. A massa é feita de arroz e lentilhas e pode ter purê de batatas, cebolas fritas e chutney. Se você for para a Índia vai se deparar várias vezes com esse prato, extremamente popular no país.",
+      "qtyStars": 4,
+      "value": 29
+    },
+    {
+      "id": "vasdsadsad21321",
+      "name": "ZUCHINI FLOWERS",
+      "image": "https://i.pinimg.com/originals/45/13/ee/4513ee0c239d70c553a2f2a561e4ee8a.png",
+      "location": "Toscana",
+      "description": "Já pensou em comer flores de abobrinha? Aposto que não! Mas se você estiver passando pela Toscana não perca a oportunidade. Lá, elas costumam ser recheadas com ricota e ervas ou queijo mozarela, para depois serem mergulhadas e fritas no azeite.",
+      "qtyStars": 4,
+      "value": 29
+    }
+  ]
+}
