@@ -55,12 +55,6 @@ export const NameFood = styled.Text`
   color: ${({theme}) => theme.colors.text};
 `;
 
-export const BoxLocInfo = styled.View`
-  width: 100%;
-  flex-direction: row;
-  align-items: flex-end;
-`;
-
 export const IconWrapper = styled.View`
   flex-direction: row;
   width: 100%;

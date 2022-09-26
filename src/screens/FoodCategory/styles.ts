@@ -59,5 +59,5 @@ export const ListFoodCategory = styled(FlatList).attrs({
     paddingHorizontal: 20,
   },
 })`
-  margin-top: 20px;
+  margin-top: 5px;
 ` as unknown as typeof FlatList;

@@ -10,9 +10,12 @@ export default {
     like: '#ED5456',
 
     text: '#000000',
-    text_details: '#B2B2B2',
+    text_details: '#A6A4A4',
+    text_add_cart: '#8E8C8C',
 
     view: '#79CDCD',
+
+    brown: '#8B4726',
   },
 
   fonts: {

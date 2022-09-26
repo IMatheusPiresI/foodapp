@@ -2,6 +2,7 @@ import {useNavigation} from '@react-navigation/native';
 import React, {ReactNode} from 'react';
 import {useTheme} from 'styled-components';
 import {IPopularFood} from '../../@types';
+import {IconInfo} from '../IconInfo';
 import * as S from './styles';
 
 type CardPopularFoodProps = {
@@ -26,7 +27,9 @@ export const CardPopularFood: React.FC<CardPopularFoodProps> = ({data}) => {
   };
 
   const handleFoodDetails = () => {
-    navigation.navigate('FoodDetails');
+    navigation.navigate('FoodDetails', {
+      food: data,
+    });
   };
 
   return (
@@ -52,10 +55,15 @@ export const CardPopularFood: React.FC<CardPopularFoodProps> = ({data}) => {
 
         <S.BoxInfoFood>
           <S.NameFood>{data.name}</S.NameFood>
-          <S.BoxLocInfo>
-            <S.IconEntypo name="location-pin" />
-            <S.Establishment>{data.location}</S.Establishment>
-          </S.BoxLocInfo>
+          <IconInfo
+            name="location-pin"
+            size={18}
+            color={theme.colors.action_items}
+            colorFont={theme.colors.text_details}
+            title={data.location}
+            fontsize={13}
+            location
+          />
         </S.BoxInfoFood>
         <S.IconWrapper>{renderStarRating()}</S.IconWrapper>
         <S.ValueWrapper>

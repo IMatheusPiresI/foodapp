@@ -1,4 +1,4 @@
-import {ICategoryFood} from './../index';
+import {ICategoryFood, IPopularFood} from './../index';
 
 export declare global {
   namespace ReactNavigation {
@@ -6,7 +6,7 @@ export declare global {
       Welcome: undefined;
       Home: undefined;
       FoodCategory: {category: ICategoryFood};
-      FoodDetails: undefined;
+      FoodDetails: {food: IPopularFood};
     }
   }
 }

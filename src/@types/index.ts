@@ -6,6 +6,8 @@ export type IPizzaMenu = {
   qtyStars: number;
   value: number;
   location: string;
+  distance_shop: string;
+  preparation_time: string;
 };
 
 export type IMenuCategoryFood = {
