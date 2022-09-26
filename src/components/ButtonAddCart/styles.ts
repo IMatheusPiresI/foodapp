@@ -10,8 +10,8 @@ export const ContainerButtonCartWrapper = styled.View`
   background-color: ${({theme}) => theme.colors.shape};
   position: absolute;
   bottom: 0;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   align-items: center;
   justify-content: center;
 `;

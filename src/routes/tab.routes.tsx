@@ -9,6 +9,7 @@ import {Home} from '../screens/Home';
 import {useTheme} from 'styled-components';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {Welcome} from '../screens/Welcome';
+import {CartFoods} from '../screens/CartFoods';
 
 const {Navigator, Screen} = createBottomTabNavigator();
 
@@ -42,6 +43,15 @@ const AppTabRoutes = () => {
         options={{
           tabBarIcon: ({size, color}) => (
             <IconFontAwesome size={size} color={color} name="home" />
+          ),
+        }}
+      />
+      <Screen
+        name="CartFoods"
+        component={CartFoods}
+        options={{
+          tabBarIcon: ({size, color}) => (
+            <IconFontAwesome size={size} color={color} name="shopping-bag" />
           ),
         }}
       />

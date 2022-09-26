@@ -24,3 +24,12 @@ export type ICategoryFood = {
 };
 
 export type IPopularFood = IPizzaMenu;
+
+export type QuantityPizza = IPizzaMenu & {
+  quantity: number;
+};
+
+export type CartFoodItems = {
+  userId: string;
+  food: QuantityPizza;
+};

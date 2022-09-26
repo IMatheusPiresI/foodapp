@@ -7,6 +7,7 @@ export declare global {
       Home: undefined;
       FoodCategory: {category: ICategoryFood};
       FoodDetails: {food: IPopularFood};
+      CartFoods: undefined;
     }
   }
 }

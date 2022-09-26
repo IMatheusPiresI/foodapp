@@ -195,5 +195,54 @@
       "distance_shop": "45.3 Km"
     }
   ],
-  "cart_foods_byuser": []
+  "cart_foods_byuser": [
+    {
+      "id": "adsad21321321sadsadsa2132",
+      "userId": "staticid-1323sdsan213n21o321oasd1",
+      "food": {
+        "id": "adsad21321321sadsadsa2132",
+        "name": "Moussaka",
+        "image": "https://static.wikia.nocookie.net/chefville/images/3/38/Recipe-Moussaka.png/revision/latest/scale-to-width-down/280?cb=20130108091043",
+        "location": "Grécia",
+        "description": "A Moussaka é um prato típico mediterrâneo. Na Grécia, por exemplo, ele é extremamente popular. Olhando de longe ele é muito parecido com uma lasanha, mas seu preparo é bem diferente.  Geralmente a Moussaka é feita com molho de queijo bechamel, carne de cordeiro e berinjela.",
+        "qtyStars": 5,
+        "value": 25,
+        "preparation_time": "18 min",
+        "distance_shop": "23.3 Km",
+        "quantity": 2
+      }
+    },
+    {
+      "id": "basdsadwe2131312adsa",
+      "userId": "staticid-1323sdsan213n21o321oasd1",
+      "food": {
+        "id": "basdsadwe2131312adsa",
+        "name": "MASALA DOSA",
+        "image": "https://linguini.akamaized.net/starchef2_website/masala_dosa.png",
+        "location": "Índia",
+        "description": "Este prato, tipicamente indiano, é parecido com uma panqueca, mas não se engane. A massa é feita de arroz e lentilhas e pode ter purê de batatas, cebolas fritas e chutney. Se você for para a Índia vai se deparar várias vezes com esse prato, extremamente popular no país.",
+        "qtyStars": 4,
+        "value": 29,
+        "preparation_time": "22 min",
+        "distance_shop": "27.3 Km",
+        "quantity": 2
+      }
+    },
+    {
+      "id": "c321313123",
+      "userId": "staticid-1323sdsan213n21o321oasd1",
+      "food": {
+        "id": "c321313123",
+        "name": "Napolitana",
+        "description": "A tradicionalíssima pizza napolitana tem se popularizado nas cidades brasileiras. É uma pizza de massa fina de fermentação natural que, depois de passar pelo forno à lenha com cúpula, fica crocante e saborosa. A napolitana é individual, tem cerca de 35 cm e recheio na medida.",
+        "image": "http://imagenspng.com/wp-content/uploads/pizza-napolitana-png-Download-gratis.png",
+        "qtyStars": 4,
+        "value": 30,
+        "location": "Mirazur",
+        "preparation_time": "42 min",
+        "distance_shop": "2.3 Km",
+        "quantity": 1
+      }
+    }
+  ]
 }

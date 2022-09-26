@@ -16,6 +16,7 @@ export const FoodDetails: React.FC = () => {
   const theme = useTheme();
 
   const params: FoodDetailsParamsProps = route.params as FoodDetailsParamsProps;
+
   return (
     <S.Container>
       <S.ContainerWrapper>
@@ -112,7 +113,7 @@ export const FoodDetails: React.FC = () => {
           </S.FoodInfo>
         </S.Content>
       </S.ContainerWrapper>
-      <ButtonAddCart />
+      <ButtonAddCart food={params.food} />
     </S.Container>
   );
 };
