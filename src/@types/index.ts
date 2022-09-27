@@ -30,6 +30,7 @@ export type QuantityPizza = IPizzaMenu & {
 };
 
 export type CartFoodItems = {
+  id: string;
   userId: string;
   food: QuantityPizza;
 };

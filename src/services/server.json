@@ -209,7 +209,23 @@
         "value": 25,
         "preparation_time": "18 min",
         "distance_shop": "23.3 Km",
-        "quantity": 2
+        "quantity": 4
+      }
+    },
+    {
+      "id": "jalds3213sad",
+      "userId": "staticid-1323sdsan213n21o321oasd1",
+      "food": {
+        "id": "jalds3213sad",
+        "name": "Deep-dish Pizza",
+        "description": "Símbolo da gastronomia italiana, a pizza atravessou fronteiras e definitivamente conquistou seu espaço nos mais diversos cantos do mundo. Isso é tão verdade que hoje, no Brasil, existe até Dia da Pizza: no dia 10 de julho, todo mundo tem a desculpa perfeita para pedir a sua. E assim como no Brasil a receita mediterrânea foi adaptada (conhece algum outro lugar em que se coma pizza de strogonoff ou de cachorro quente?), nos Estados Unidos, a brincadeira também foi levada a sério. Na Warren, acreditamos que a melhor forma de investir é por objetivos, ou seja, cada sonho que você tem merece uma carteira específica para que ele se torne realidade. E quem não sonha em viajar? Por isso, reunimos as pizzas americanas mais clássicas para você conhecer e colocar na lista de to-dos quando a tão sonhada hora chegar. Vamos lá? LEIA TAMBÉM | Investindo para viajar? Confira 7 filmes e séries para assistir enquanto seu dinheiro rende Colorado Mountain Pie: muito queijo e uma borda de respei Mais borda, mais queijo e mais recheio. Também conhecida como Colorado-style, essa pizza chama a atenção pelo tamanho. Reza a lenda que ela foi inventada pela Beau Jo’s Pizzeria, que fica na cidade de Idaho Springs, no estado do Colorado. A apresentação da pizza fez sucesso entre os moradores da cidade e o negócio se expandiu para outras regiões do estado. Uma tradicional pizza de pepperoni da Beau Jo’s Pizzeria Foi então que praticantes de ski descobriram um dos restaurantes próximos às Montanhas Rochosas, e a fama da Colorado Mountain Pie se espalhou. Seu maior diferencial é a borda, que é grande e trançada para dar mais estabilidade na hora de comer os enormes pedaços com as mãos. Na massa, o mel substitui o açúcar — inclusive, depois da refeição, a borda é consumida como sobremesa, acompanhada por algum molho doce. Tradicionalmente, a Colorado Mountain Pie é vendida inteira ou por fatia, e os restaurantes locais oferecem um buffet de salada como acompanhamento.  Na maioria dos estabelecimentos, os clientes também podem escolher os ingredientes que querem para a sua pizza. Deep-dish Pizza, sangue italiano com a cara de Chicago Mais ao leste, na ventosa Chicago, a pizza que mais parece uma grande quiche é um ícone da gastronomia da cidade.  A origem da deep-dish pizza remonta aos imigrantes napolitanos que chegaram aos Estados Unidos no fim do século XIX em busca de trabalho. Por volta dos anos 1940, os empreendedores Ike Sewell e Ric Riccardo decidiram criar uma versão diferente, ítalo-americana, que apesar de ter sido inspirada em suas origens, acabou ficando bem distante da tradicional pizza napolitana. Servida em um prato mais fundo, com a borda mais crocante e camadas invertidas de queijo, tomate e carne (e às vezes alguns vegetais), a deep-dish pizza passou de uma tradição de imigrantes para um clássico nascido e criado em Chicago.",
+        "image": "https://www.pngitem.com/pimgs/m/507-5077809_pizza-deep-dish-puget-sound-deepdishpizza-sunka-cotto.png",
+        "qtyStars": 4,
+        "value": 37,
+        "location": "Mugaritz",
+        "preparation_time": "45 min",
+        "distance_shop": "5.2 Km",
+        "quantity": 3
       }
     },
     {
@@ -225,22 +241,6 @@
         "value": 29,
         "preparation_time": "22 min",
         "distance_shop": "27.3 Km",
-        "quantity": 2
-      }
-    },
-    {
-      "id": "c321313123",
-      "userId": "staticid-1323sdsan213n21o321oasd1",
-      "food": {
-        "id": "c321313123",
-        "name": "Napolitana",
-        "description": "A tradicionalíssima pizza napolitana tem se popularizado nas cidades brasileiras. É uma pizza de massa fina de fermentação natural que, depois de passar pelo forno à lenha com cúpula, fica crocante e saborosa. A napolitana é individual, tem cerca de 35 cm e recheio na medida.",
-        "image": "http://imagenspng.com/wp-content/uploads/pizza-napolitana-png-Download-gratis.png",
-        "qtyStars": 4,
-        "value": 30,
-        "location": "Mirazur",
-        "preparation_time": "42 min",
-        "distance_shop": "2.3 Km",
         "quantity": 1
       }
     }

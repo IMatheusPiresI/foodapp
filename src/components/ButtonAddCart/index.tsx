@@ -38,7 +38,7 @@ export const ButtonAddCart: React.FC<ButtonAddCartProps> = ({food}) => {
 
         await api.put(`/cart_foods_byuser/${food.id}`, {
           id: food.id,
-          userId: userId,
+          userId,
           food: {
             ...addOneMoreQuantityFood[0],
           },
@@ -46,7 +46,7 @@ export const ButtonAddCart: React.FC<ButtonAddCartProps> = ({food}) => {
       } else {
         await api.post(`/cart_foods_byuser`, {
           id: food.id,
-          userId: userId,
+          userId,
           food: {
             ...food,
             quantity: 1,
