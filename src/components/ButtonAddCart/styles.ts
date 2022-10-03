@@ -48,3 +48,12 @@ export const TitleButton = styled.Text`
   font-family: ${({theme}) => theme.fonts.primary_regular};
   color: ${({theme}) => theme.colors.text_add_cart};
 `;
+
+export const CountCartFoodQuantity = styled.Text`
+  position: absolute;
+  padding-top: 5px;
+
+  font-size: ${RFValue(14)}px;
+  font-family: ${({theme}) => theme.fonts.primary_bold};
+  color: ${({theme}) => theme.colors.brown};
+`;

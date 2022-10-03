@@ -35,5 +35,32 @@ export const Content = styled.View`
 `;
 
 export const ListFoodCart = styled(FlatList).attrs({
-  showsHorizontalScrollIndicator: false,
+  showsVerticalScrollIndicator: false,
 })`` as unknown as typeof FlatList<CartFoodItems>;
+
+export const TotalWrapper = styled.View`
+  width: 100%;
+  height: ${RFValue(50)}px;
+  background-color: ${({theme}) => theme.colors.shape};
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 0 20px;
+`;
+
+export const TitleValue = styled.Text`
+  font-size: ${RFValue(20)}px;
+  font-family: ${({theme}) => theme.fonts.primary_regular};
+  color: ${({theme}) => theme.colors.text_add_cart};
+  letter-spacing: 3px;
+`;
+
+export const Value = styled.Text`
+  font-size: ${RFValue(24)}px;
+  font-family: ${({theme}) => theme.fonts.primary_bold};
+  color: ${({theme}) => theme.colors.like};
+`;

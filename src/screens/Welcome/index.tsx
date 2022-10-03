@@ -17,25 +17,16 @@ export const Welcome: React.FC = () => {
         translucent
         backgroundColor="transparent"
       />
-      <S.Title>
-        Get {'\n'}
-        the Fastest {'\n'}
-        Delivery
-      </S.Title>
+      <S.Title>MyAppFood {'\n'}</S.Title>
 
-      <S.SubTitle>
-        Order Food and get {'\n'}
-        Delivery in Fastest time in Town
-      </S.SubTitle>
+      <S.Image
+        source={require('../../assets/images/delivery.png')}
+        resizeMode="contain"
+      />
 
       <S.StartButton onPress={handleNavigateHome}>
         <S.ButtonText>Get Started</S.ButtonText>
       </S.StartButton>
-
-      <S.MotoImage
-        source={require('../../assets/images/moto.png')}
-        resizeMode={'contain'}
-      />
     </S.Container>
   );
 };

@@ -1,7 +1,13 @@
 import React from 'react';
+import {StyleSheet} from 'react-native';
+
+import * as S from './styles';
+
 import {useTheme} from 'styled-components';
 import {CartFoodItems} from '../../@types';
-import * as S from './styles';
+
+import {useDispatch} from 'react-redux';
+import {actionCreators} from '../../store/ducks/foodCart';
 
 type CartListItemProps = {
   data: CartFoodItems;
@@ -9,8 +15,18 @@ type CartListItemProps = {
 
 export const CartListItem: React.FC<CartListItemProps> = ({data}) => {
   const theme = useTheme();
+  const dispatch = useDispatch();
+
+  const handleAddQuantityCartFood = () => {
+    dispatch(actionCreators.addFoodOnCart(data));
+  };
+
+  const handleSubQuantityCartFood = () => {
+    dispatch(actionCreators.subFoodOnCart(data));
+  };
+
   return (
-    <S.Container>
+    <S.Container style={styles.shadow}>
       <S.ImageNameWrapper>
         <S.ImageWrapper>
           <S.ImageFood source={{uri: data.food.image}} resizeMode="contain" />
@@ -19,7 +35,7 @@ export const CartListItem: React.FC<CartListItemProps> = ({data}) => {
       </S.ImageNameWrapper>
       <S.QuantityFoodWrapper>
         <S.BoxQuantityFood>
-          <S.ButtonChangeQuantity>
+          <S.ButtonChangeQuantity onPress={handleSubQuantityCartFood}>
             <S.Icon
               name={'chevron-left'}
               size={12}
@@ -27,7 +43,7 @@ export const CartListItem: React.FC<CartListItemProps> = ({data}) => {
             />
           </S.ButtonChangeQuantity>
           <S.Quantity>{data.food.quantity}</S.Quantity>
-          <S.ButtonChangeQuantity>
+          <S.ButtonChangeQuantity onPress={handleAddQuantityCartFood}>
             <S.Icon
               name={'chevron-right'}
               size={12}
@@ -42,3 +58,17 @@ export const CartListItem: React.FC<CartListItemProps> = ({data}) => {
     </S.Container>
   );
 };
+
+const styles = StyleSheet.create({
+  shadow: {
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.27,
+    shadowRadius: 4.65,
+
+    elevation: 6,
+  },
+});

@@ -1,64 +1,62 @@
-import React, {useState} from 'react';
-import {useTheme} from 'styled-components';
-import {CartFoodItems, IPizzaMenu, QuantityPizza} from '../../@types';
-import {api} from '../../services/api';
+import React, {useEffect, useState} from 'react';
 import * as S from './styles';
+
+import {useTheme} from 'styled-components';
+import {CartFoodItems, IPizzaMenu, ReducerCartState} from '../../@types';
+
+import {useSelector, useDispatch} from 'react-redux';
+import {actionCreators} from '../../store/ducks/foodCart';
 
 type ButtonAddCartProps = {
   food: IPizzaMenu;
 };
 
 export const ButtonAddCart: React.FC<ButtonAddCartProps> = ({food}) => {
-  const theme = useTheme();
-  const [loading, setLoading] = useState<boolean>(false);
-
   const userId = 'staticid-1323sdsan213n21o321oasd1';
 
-  const handleAddFoodCart = async () => {
-    console.log('cliquei para add ao cart');
+  const [loading, setLoading] = useState<boolean>(false);
+  const theme = useTheme();
+  const dispatch = useDispatch();
+  const foodCart: CartFoodItems[] = useSelector(
+    (state: ReducerCartState) => state.foodCartReducer.foodCart,
+  );
+
+  const handleAddFoodCart = () => {
     setLoading(true);
 
     try {
-      const response = await api.get('/cart_foods_byuser');
-      const userCartFoods: CartFoodItems[] = response.data;
-
-      const foodExists: CartFoodItems[] = userCartFoods.filter(
-        (foodAdd, index) => foodAdd.food.id === food.id,
-      );
-
-      if (foodExists.length > 0) {
-        const addOneMoreQuantityFood: QuantityPizza[] = foodExists.map(
-          (foodsAdd, index) => {
-            return {
-              ...food,
-              quantity: foodsAdd.food.quantity + 1,
-            };
-          },
-        );
-
-        await api.put(`/cart_foods_byuser/${food.id}`, {
+      dispatch(
+        actionCreators.addFoodOnCart({
           id: food.id,
-          userId,
-          food: {
-            ...addOneMoreQuantityFood[0],
-          },
-        });
-      } else {
-        await api.post(`/cart_foods_byuser`, {
-          id: food.id,
-          userId,
+          userId: userId,
           food: {
             ...food,
             quantity: 1,
           },
-        });
-      }
+        }),
+      );
     } catch (err) {
       console.log(err);
     } finally {
       setLoading(false);
     }
   };
+
+  const getQuantityFoodOnCart = () => {
+    const quantityFood = foodCart
+      .filter(foods => foods.id === food.id)
+      .map(currentFood => currentFood.food.quantity);
+
+    const currentFoodQty = quantityFood[0];
+
+    if (currentFoodQty > 0) return currentFoodQty;
+
+    return '';
+  };
+
+  useEffect(() => {
+    getQuantityFoodOnCart();
+  }, [foodCart]);
 
   return (
     <S.ContainerButtonCartWrapper
@@ -81,6 +79,9 @@ export const ButtonAddCart: React.FC<ButtonAddCartProps> = ({food}) => {
             size={28}
             color={theme.colors.shape}
           />
+          <S.CountCartFoodQuantity>
+            {getQuantityFoodOnCart()}
+          </S.CountCartFoodQuantity>
         </S.IconWrapper>
         <S.TitleWrapper>
           <S.TitleButton>Swipe to add on Cart</S.TitleButton>

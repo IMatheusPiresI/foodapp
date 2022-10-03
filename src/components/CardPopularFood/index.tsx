@@ -1,5 +1,12 @@
 import {useNavigation} from '@react-navigation/native';
-import React, {ReactNode} from 'react';
+import React, {ReactNode, useEffect} from 'react';
+import {
+  interpolate,
+  useAnimatedStyle,
+  useSharedValue,
+  withDelay,
+  withTiming,
+} from 'react-native-reanimated';
 import {useTheme} from 'styled-components';
 import {IPopularFood} from '../../@types';
 import {IconInfo} from '../IconInfo';
@@ -12,6 +19,8 @@ type CardPopularFoodProps = {
 export const CardPopularFood: React.FC<CardPopularFoodProps> = ({data}) => {
   const theme = useTheme();
   const navigation = useNavigation();
+  const opacityTransformAnimate = useSharedValue<number>(30);
+  const shadowAnimate = useSharedValue<number>(0);
 
   const renderStarRating = () => {
     let stars: ReactNode[] = [];
@@ -32,8 +41,43 @@ export const CardPopularFood: React.FC<CardPopularFoodProps> = ({data}) => {
     });
   };
 
+  // Animates
+
+  const animetedTransformOpacity = useAnimatedStyle(() => {
+    return {
+      transform: [{translateY: opacityTransformAnimate.value}],
+      opacity: interpolate(opacityTransformAnimate.value, [30, 0], [0, 1]),
+    };
+  });
+
+  const shadowAnimated = useAnimatedStyle(() => {
+    return {
+      shadowColor: theme.colors.text,
+      shadowOpacity: interpolate(shadowAnimate.value, [0, 1], [0, 0.22]),
+      shadowRadius: interpolate(shadowAnimate.value, [0, 1], [0, 0.2]),
+      elevation: interpolate(shadowAnimate.value, [0, 1], [0, 3]),
+    };
+  });
+
+  const initAnimate = () => {
+    const newValueOpacityTransformAnimate = 0;
+    const newValue = 1;
+    opacityTransformAnimate.value = withTiming(
+      newValueOpacityTransformAnimate,
+      {duration: 700},
+    );
+    shadowAnimate.value = withDelay(
+      700,
+      withTiming(newValue, {duration: 1500}),
+    );
+  };
+
+  useEffect(() => {
+    initAnimate();
+  }, []);
+
   return (
-    <S.Container>
+    <S.Container style={[animetedTransformOpacity, shadowAnimated]}>
       <S.Content onPress={handleFoodDetails}>
         <S.BoxImage
           style={{

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
 import * as S from './styles';
 
 import {StatusBar} from 'react-native';
@@ -9,7 +9,7 @@ import {CardPopularFood} from '../../components/CardPopularFood';
 import {api} from '../../services/api';
 import {ICategoryFood, IMenuCategoryFood, IPopularFood} from '../../@types';
 import {Loading} from '../../components/Loading';
-import {useNavigation} from '@react-navigation/native';
+import {useFocusEffect, useNavigation} from '@react-navigation/native';
 
 export const Home: React.FC = () => {
   const [foodCategories, setFoodCategories] = useState<ICategoryFood[]>([]);
@@ -50,10 +50,13 @@ export const Home: React.FC = () => {
     });
   };
 
-  useEffect(() => {
-    loadCategoryFoods();
-    loadPopularFood();
-  }, []);
+  useFocusEffect(
+    useCallback(() => {
+      loadCategoryFoods();
+      loadPopularFood();
+    }, []),
+  );
+
   return (
     <S.Container>
       <StatusBar

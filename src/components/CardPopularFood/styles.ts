@@ -3,12 +3,13 @@ import styled from 'styled-components/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import IconEntypoLib from 'react-native-vector-icons/Entypo';
 import {RectButton} from 'react-native-gesture-handler';
+import Animated from 'react-native-reanimated';
 
 type IconNoActive = {
   noActive?: boolean;
 };
 
-export const Container = styled.View`
+export const Container = styled(Animated.View)`
   width: ${RFValue(220)}px;
   height: ${RFValue(280)}px;
   background-color: transparent;

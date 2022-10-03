@@ -45,6 +45,7 @@ export const NameFood = styled.Text`
   font-size: ${RFValue(13)}px;
   font-family: ${({theme}) => theme.fonts.primary_regular};
   color: ${({theme}) => theme.colors.text};
+  text-align: center;
 `;
 
 export const QuantityFoodWrapper = styled.View`

@@ -34,3 +34,14 @@ export type CartFoodItems = {
   userId: string;
   food: QuantityPizza;
 };
+
+export type ReducerCartState = {
+  foodCartReducer: {
+    foodCart: CartFoodItems[];
+  };
+};
+
+export type ReducerCartAction = {
+  type: string;
+  payload: CartFoodItems;
+};
