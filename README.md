@@ -10,7 +10,7 @@ Repositório do projeto **MyAppFood** desenvolvido para aprofundar os conhecimen
 <img src="src/assets/images/home.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="src/assets/images/category.png" width="250px" heigth="auto" style="margin-left: 20px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="src/assets/images/foodDetails.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="src/assets/images/emptyCart.png" width="250px" heigth="auto" style="margin-left: 20px">
