@@ -5,17 +5,17 @@ Repositório do projeto **MyAppFood** desenvolvido para aprofundar os conhecimen
 <h3 id="preview">🎥 Preview</h3>
 
 <div style="display: flex">
-<img src="welcome.png" width="250px" heigth="auto" style="margin-left: 20px">
+<img src="src/assets/images/welcome.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="home.png" width="250px" heigth="auto" style="margin-left: 20px">
+<img src="src/assets/images/home.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="category.png" width="250px" heigth="auto" style="margin-left: 20px">
+<img src="src/assets/images/category.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="foodDetails.png" width="250px" heigth="auto" style="margin-left: 20px">
+<img src="src/assets/images/foodDetails.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="emptyCart.png" width="250px" heigth="auto" style="margin-left: 20px">
+<img src="src/assets/images/emptyCart.png" width="250px" heigth="auto" style="margin-left: 20px">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="fullCart.png" width="250px" heigth="auto" style="margin-left: 20px">
+<img src="src/assets/images/fullCart.png" width="250px" heigth="auto" style="margin-left: 20px">
 </div>
 
 <h3 id="acessar-projeto">📁 Inicialização da Clonagem</h3>
