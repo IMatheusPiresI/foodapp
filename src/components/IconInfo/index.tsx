@@ -23,11 +23,11 @@ export const IconInfo: React.FC<IconInfoProps> = ({
   return (
     <S.Container>
       {location ? (
-        <S.IconEnt name={name} size={size} color={color} />
+        <S.IconEnt testID="location" name={name} size={size} color={color} />
       ) : (
-        <S.IconFont name={name} size={size} color={color} />
+        <S.IconFont testID="FontIcon" name={name} size={size} color={color} />
       )}
-      <S.Title fontsize={fontsize} colorFont={colorFont}>
+      <S.Title testID="colorFont" fontsize={fontsize} colorFont={colorFont}>
         {title}
       </S.Title>
     </S.Container>
