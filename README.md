@@ -24,7 +24,7 @@ Repositório do projeto **MyAppFood** desenvolvido para aprofundar os conhecimen
 
        $ git clone https://github.com/IMatheusPiresI/foodapp.git
 
-◽ Acessar a pasta to-ducks-tasks e executar o comando <br>
+◽ Para instalar as dependências, rode o comando: <br>
 
         $ yarn
 
